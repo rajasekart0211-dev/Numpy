@@ -29,3 +29,7 @@ print(float.dtype)
 object = np.array([1,1,'r',"dsfsf",True],dtype=np.object_)
 print(object.dtype)
 #object
+
+array = array.astype(np.bool)
+print(array.dtype)
+#bool
